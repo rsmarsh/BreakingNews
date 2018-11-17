@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Breaking News Test Page</title>
+        <link rel="stylesheet" type="text/css" href="breaking-news.css">
+
+    </head>
+    <body>
+        <input id="text-entry" type="text" placeholder="Enter news here...">
+        <input type="button" value="Send" onclick="getText()">
+        <div id="news-ticker"></div>
+    </body>
+    <!-- Inline script for demo purposes only, to cut down on file clutter -->
+    <script>
+        function getText() {
+            var text = document.getElementById('text-entry').value;
+            displayNewsItem(text);
+            
+        }
+        </script>
+        <script type="text/javascript" src="breaking-news.js"></script>
+</html>
