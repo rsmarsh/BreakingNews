@@ -4,7 +4,7 @@
 BreakingNews adds a scrolling message to your page in the style of a news ticker.
 The message covers the central portion of the page, appearing above every other element.
 
-[[https://github.com/rsmarsh/BreakingNews/blob/master/demo/example.png|alt=example]]
+![Example Image](https://github.com/rsmarsh/BreakingNews/blob/master/demo/example.png)
 
 The text will slowly scroll right-to-left in the style of the old html marquee text.
 
