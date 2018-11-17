@@ -12,7 +12,7 @@
 .newsModal {
   display: none; /* Hidden by default */
   position: fixed;
-  z-index: 9999; /* Sit on top of all other elements on the page */
+  z-index: 99999; /* Sit on top of all other elements on the page */
   left: 0;
   top: 25%;
   width: 100%; 
